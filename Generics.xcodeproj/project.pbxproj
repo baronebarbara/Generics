@@ -15,6 +15,7 @@
 		B123943026A0BE6D00AEDC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B123942E26A0BE6D00AEDC15 /* LaunchScreen.storyboard */; };
 		B123943B26A0BE6D00AEDC15 /* GenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B123943A26A0BE6D00AEDC15 /* GenericsTests.swift */; };
 		B123944626A0BE6D00AEDC15 /* GenericsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B123944526A0BE6D00AEDC15 /* GenericsUITests.swift */; };
+		B123945426A0BEA500AEDC15 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B123945326A0BEA500AEDC15 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B123944126A0BE6D00AEDC15 /* GenericsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B123944526A0BE6D00AEDC15 /* GenericsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsUITests.swift; sourceTree = "<group>"; };
 		B123944726A0BE6D00AEDC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B123945326A0BEA500AEDC15 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B123942C26A0BE6D00AEDC15 /* Assets.xcassets */,
 				B123942E26A0BE6D00AEDC15 /* LaunchScreen.storyboard */,
 				B123943126A0BE6D00AEDC15 /* Info.plist */,
+				B123945326A0BEA500AEDC15 /* Service.swift */,
 			);
 			path = Generics;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B123942826A0BE6A00AEDC15 /* ViewController.swift in Sources */,
+				B123945426A0BEA500AEDC15 /* Service.swift in Sources */,
 				B123942426A0BE6A00AEDC15 /* AppDelegate.swift in Sources */,
 				B123942626A0BE6A00AEDC15 /* SceneDelegate.swift in Sources */,
 			);
